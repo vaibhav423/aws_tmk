@@ -66,12 +66,12 @@
         configDiv.style.fontSize = '12px';
         configDiv.style.fontFamily = 'Arial, sans-serif';
         configDiv.style.cursor = 'pointer';
-        configDiv.innerText = '⚙️ AWS Login';
+        configDiv.innerText = '@ AWS Login';
         configDiv.title = 'AWS Auto Login Settings';
 
         configDiv.addEventListener('click', function() {
             const action = prompt(
-                '📝 AWS Auto Login Menu:\n' +
+                'AWS Auto Login Menu:\n' +
                 '1: Change Email\n' +
                 '2: Change Password\n' +
                 '3: Change MFA Secret\n' +
